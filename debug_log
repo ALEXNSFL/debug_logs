@@ -1,0 +1,91 @@
+Initializing...
+2023-06-04 06:44:26.901157+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: 👤 Identifying App User ID
+2023-06-04 06:44:26.904906+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Debug logging enabled
+2023-06-04 06:44:26.905021+0200 CG Calc Iphone[32200:2179688] [Purchases] - INFO: ℹ️ StoreKit 2 support enabled
+2023-06-04 06:44:26.905073+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ SDK Version - 4.13.1
+2023-06-04 06:44:26.905126+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Bundle ID - AlexS.CG-Calc-Iphone
+2023-06-04 06:44:26.905170+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: 👤 No initial App User ID
+Initializing Complete
+Checking Subcription Status
+2023-06-04 06:44:26.988880+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Vending CustomerInfo from cache.
+Done Checking Subcription Status
+Loading people
+Error loading people: The data couldn’t be read because it isn’t in the correct format.
+2023-06-04 06:44:27.499546+0200 CG Calc Iphone[32200:2179688] Metal API Validation Enabled
+2023-06-04 06:44:27.913651+0200 CG Calc Iphone[32200:2179704] [Purchases] - DEBUG: ℹ️ GetCustomerInfoOperation: Started
+2023-06-04 06:44:27.913819+0200 CG Calc Iphone[32200:2179704] [Purchases] - DEBUG: ℹ️ There are no requests currently running, starting request GET subscribers/$RCAnonymousID%3A5ac1977aba944e6b95551f08d9cf3538
+SUBSCRIPTION NOT ACTIVE
+2023-06-04 06:44:27.921201+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ applicationDidBecomeActive
+2023-06-04 06:44:27.922162+0200 CG Calc Iphone[32200:2179704] [Purchases] - DEBUG: ℹ️ API request started: GET /v1/subscribers/$RCAnonymousID:5ac1977aba944e6b95551f08d9cf3538
+2023-06-04 06:44:27.923902+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Offerings cache is stale, updating caches
+2023-06-04 06:44:27.924258+0200 CG Calc Iphone[32200:2179708] [Purchases] - DEBUG: ℹ️ Network operation 'GetOfferingsOperation' found with the same cache key '$RCAnonymousID:...'. Skipping request.
+2023-06-04 06:44:28.697831+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ API request completed: GET /v1/subscribers/$RCAnonymousID:5ac1977aba944e6b95551f08d9cf3538 200
+2023-06-04 06:44:28.739052+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ Sending latest CustomerInfo to delegate.
+2023-06-04 06:44:28.739238+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: 😻 CustomerInfo updated from network.
+2023-06-04 06:44:28.739370+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ GetCustomerInfoOperation: Finished
+2023-06-04 06:44:28.739631+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ Serial request done: GET subscribers/$RCAnonymousID%3A5ac1977aba944e6b95551f08d9cf3538, 0 requests left in the queue
+2023-06-04 06:44:28.739688+0200 CG Calc Iphone[32200:2179704] [Purchases] - DEBUG: ℹ️ GetOfferingsOperation: Started
+2023-06-04 06:44:28.739903+0200 CG Calc Iphone[32200:2179704] [Purchases] - DEBUG: ℹ️ There are no requests currently running, starting request GET subscribers/$RCAnonymousID%3A5ac1977aba944e6b95551f08d9cf3538/offerings
+2023-06-04 06:44:28.742310+0200 CG Calc Iphone[32200:2179704] [Purchases] - DEBUG: ℹ️ API request started: GET /v1/subscribers/$RCAnonymousID:5ac1977aba944e6b95551f08d9cf3538/offerings
+2023-06-04 06:44:28.896722+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ API request completed: GET /v1/subscribers/$RCAnonymousID:5ac1977aba944e6b95551f08d9cf3538/offerings 304
+2023-06-04 06:44:28.909249+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ No existing products cached, starting store products request for: ["monthly.full.access", "yearly.full.access"]
+2023-06-04 06:44:28.909697+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ Found an existing request for products: ["monthly.full.access", "yearly.full.access"], appending to completion
+2023-06-04 06:44:28.909896+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ GetOfferingsOperation: Finished
+2023-06-04 06:44:28.910238+0200 CG Calc Iphone[32200:2179703] [Purchases] - DEBUG: ℹ️ Serial request done: GET subscribers/$RCAnonymousID%3A5ac1977aba944e6b95551f08d9cf3538/offerings, 0 requests left in the queue
+2023-06-04 06:44:28.987864+0200 CG Calc Iphone[32200:2179708] [Purchases] - DEBUG: 😻 Store products request request received response
+2023-06-04 06:44:28.988182+0200 CG Calc Iphone[32200:2179708] [Purchases] - DEBUG: ℹ️ Store products request finished
+2023-06-04 06:44:31.101702+0200 CG Calc Iphone[32200:2179688] Successfully load keyboard extensions
+2023-06-04 06:44:43.610683+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Vending Offerings from cache
+true
+2023-06-04 06:44:58.900594+0200 CG Calc Iphone[32200:2179707] [tcp] tcp_output [C1.1.1.1:3] flags=[R.] seq=1322027286, ack=1131095579, win=4095 state=CLOSED rcv_nxt=1131095579, snd_una=1322027209
+2023-06-04 06:48:20.919668+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Vending Offerings from cache
+true
+2023-06-04 06:48:40.406059+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Vending Offerings from cache
+2023-06-04 06:48:40.415408+0200 CG Calc Iphone[32200:2179688] [Purchases] - INFO: 💰 Purchasing Product 'monthly.full.access' from package in Offering 'WB_Full_Access'
+2023-06-04 06:49:06.838801+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ applicationDidBecomeActive
+2023-06-04 06:49:23.012605+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ applicationDidBecomeActive
+2023-06-04 06:49:23.618125+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ Force refreshing the receipt to get latest transactions from Apple.
+2023-06-04 06:49:25.260835+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Loaded receipt from url file:///private/var/mobile/Containers/Data/Application/DCF33A67-96E3-4EF7-9000-39F18AB58FFC/StoreKit/sandboxReceipt
+2023-06-04 06:49:25.261077+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Skipping products request because products were already cached. products: ["monthly.full.access"]
+2023-06-04 06:49:25.261299+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Skipping products request because products were already cached. products: ["monthly.full.access"]
+2023-06-04 06:49:25.263744+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Found 0 unsynced attributes for App User ID: $RCAnonymousID:5ac1977aba944e6b95551f08d9cf3538
+2023-06-04 06:49:25.283000+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ PostReceiptDataOperation: Started
+2023-06-04 06:49:25.378100+0200 CG Calc Iphone[32200:2181523] [Purchases] - INFO: ℹ️ Receipt parsed successfully
+2023-06-04 06:49:25.392905+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ PostReceiptDataOperation: Posting receipt: {
+  "opaque_value" : "kwZCI1Jbz4p82\/nEH3d6sg==",
+  "original_application_version" : "1.0",
+  "bundle_id" : "AlexS.CG-Calc-Iphone",
+  "sha1_hash" : "L0af2zWOFAM1Cuoafz8bHWfIoxE=",
+  "application_version" : "5",
+  "creation_date" : "2023-06-04T04:49:25Z",
+  "in_app_purchases" : [
+    {
+      "product_id" : "yearly.full.access",
+      "quantity" : 1,
+      "transaction_id" : "2000000331141828",
+      "is_in_trial_period" : false,
+      "is_in_intro_offer_period" : false,
+      "expires_date" : "2023-05-15T15:29:54Z",
+      "web_order_line_item_id" : 2000000027389328,
+      "original_purchase_date" : "2023-05-15T14:20:39Z",
+      "original_transaction_id" : "2000000331132922",
+      "product_type" : 3,
+      "purchase_date" : "2023-05-15T14:29:54Z"
+    },
+    {
+      "product_id" : "yearly.full.access",
+      "quantity" : 1,
+      "transaction_id" : "2000000332163847",
+      "is_in_trial_period" : false,
+      "is_in_intro_offer_period" : fa
+2023-06-04 06:49:25.393493+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ There are no requests currently running, starting request POST receipts
+2023-06-04 06:49:25.399254+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ API request started: POST /v1/receipts
+2023-06-04 06:49:28.108455+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ API request completed: POST /v1/receipts 200
+2023-06-04 06:49:28.128574+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ PostReceiptDataOperation: Finished
+2023-06-04 06:49:28.128981+0200 CG Calc Iphone[32200:2181523] [Purchases] - DEBUG: ℹ️ Serial request done: POST receipts, 0 requests left in the queue
+2023-06-04 06:49:28.136479+0200 CG Calc Iphone[32200:2179688] [Purchases] - DEBUG: ℹ️ Sending updated CustomerInfo to delegate.
+2023-06-04 06:49:28.136908+0200 CG Calc Iphone[32200:2181523] [Purchases] - INFO: 😻💰 Purchased product - 'monthly.full.access'
+✅ PURCHASE SUCCESSFUL
+2023-06-04 06:49:28.808032+0200 CG Calc Iphone[32200:2179688] [Presentation] Attempt to present <SwiftUI.PlatformAlertController: 0x10c059400> on <_TtGC7SwiftUI29PresentationHostingControllerVS_7AnyView_: 0x10e027a00> (from <_TtGC7SwiftUI29PresentationHostingControllerVS_7AnyView_: 0x10e027a00>) whose view is not in the window hierarchy.
+Loading people
+Error loading people: The data couldn’t be read because it isn’t in the correct format.
